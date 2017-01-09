@@ -14,6 +14,7 @@ Router.map(function() {
     this.route('show', { path: '/experience_id'});
     this.route('mcd-partners');
   });
+  this.route('education');
 });
 
 export default Router;

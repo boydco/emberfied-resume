@@ -73,6 +73,10 @@ $lato: 'Lato', sans-serif;
   width: 70%;
   margin: auto;
   padding-top: 30px;
+
+  p {
+    font-size: 18px;
+  }
 }
 
 .links {
@@ -89,4 +93,13 @@ $lato: 'Lato', sans-serif;
 
 .detail-container {
   margin: 20px;
+}
+
+
+.about-img {
+  width: 300px;
+  margin: auto;
+  display: block;
+  border-radius: 100%;
+  margin-top: 50px;
 }
