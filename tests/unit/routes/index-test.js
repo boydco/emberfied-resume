@@ -8,7 +8,7 @@ moduleFor('route:index', 'Unit | Route | index', {
 test('should transition to experiences route', function(assert) {
   let route = this.subject({
     replaceWith(routeName) {
-      asser.equal(routeName, 'experiences', 'replace with route name experiences');
+      assert.equal(routeName, 'experiences', 'replace with route name experiences');
     }
   });
   route.beforeModel();

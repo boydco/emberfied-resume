@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="menu">
+    {{#link-to 'index'}}
+      <h1 class="left">
+        <em>Colin Boyd</em>
+      </h1>
+    {{/link-to}}
+    <div class="left links">
+      {{#link-to 'experiences'}}
+        Experience
+      {{/link-to}}
+      {{#link-to 'about'}}
+        About
+      {{/link-to}}
+      {{#link-to 'skills'}}
+        Skills
+      {{/link-to}}
+      {{#link-to 'contact'}}
+        Contact
+      {{/link-to}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
