@@ -4,8 +4,7 @@ export default function() {
 
     this.get('/experiences', function() {
       return {
-        data: [
-          {
+        data: [{
             type: 'job-listing',
             id: 'mcd-partners',
             attributes: {
@@ -17,7 +16,8 @@ export default function() {
               end: 'Present',
               description1: 'aaaaa',
               description2: 'bbbbbb',
-              description3: 'ccccccc'
+              description3: 'ccccccc',
+              image: 'http://www.australia.com/content/australia/en_ca/places/melbourne/top-10-things-to-do/_jcr_content/image.adapt.761.medium.jpg'
             }
           },
           {
@@ -32,7 +32,8 @@ export default function() {
               end: 'Present',
               description1: '',
               description2: '',
-              description3: ''
+              description3: '',
+              image: 'http://www.australia.com/content/australia/en_ca/places/melbourne/top-10-things-to-do/_jcr_content/image.adapt.761.medium.jpg'
             }
           },
           {
@@ -47,7 +48,8 @@ export default function() {
               end: 'Present',
               description1: '',
               description2: '',
-              description3: ''
+              description3: '',
+              image: 'http://www.australia.com/content/australia/en_ca/places/melbourne/top-10-things-to-do/_jcr_content/image.adapt.761.medium.jpg'
             }
           },
           {
@@ -62,7 +64,8 @@ export default function() {
               end: 'Present',
               description1: '',
               description2: '',
-              description3: ''
+              description3: '',
+              image: 'http://www.australia.com/content/australia/en_ca/places/melbourne/top-10-things-to-do/_jcr_content/image.adapt.761.medium.jpg'
             }
           },
           {
@@ -77,7 +80,8 @@ export default function() {
               end: 'Present',
               description1: '',
               description2: '',
-              description3: ''
+              description3: '',
+              image: 'http://www.australia.com/content/australia/en_ca/places/melbourne/top-10-things-to-do/_jcr_content/image.adapt.761.medium.jpg'
             }
           },
           {
@@ -92,10 +96,11 @@ export default function() {
               end: 'Present',
               description1: '',
               description2: '',
-              description3: ''
+              description3: '',
+              image: 'http://www.australia.com/content/australia/en_ca/places/melbourne/top-10-things-to-do/_jcr_content/image.adapt.761.medium.jpg'
             }
           }
-        ];
-      }
+        ]
+      };
     });
 }

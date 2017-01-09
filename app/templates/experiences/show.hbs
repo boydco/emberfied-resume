@@ -1,0 +1,21 @@
+<div class="col-md-6 detail-container">
+  <article class="listing">
+      <img src="{{model.image}}" alt="">
+      <h3>{{model.title}}</h3>
+      <div class="detail owner">
+        <span>Company:</span> {{model.company}}
+      </div>
+      <div class="detail type">
+        <span>Location:</span> {{model.city}}
+      </div>
+      <div class="detail location">
+        <span>Start:</span> {{model.start}}
+      </div>
+      <div class="detail bedrooms">
+        <span>End:</span> {{model.end}}
+      </div>
+
+  </article>
+  {{location-map location=model.location}}
+  </div>
+{{outlet}}

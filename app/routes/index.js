@@ -5,4 +5,5 @@ export default Ember.Route.extend({
     this._super(...arguments);
     this.replaceWith('experiences');
   }
+
 });

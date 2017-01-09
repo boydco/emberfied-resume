@@ -1,26 +1,29 @@
 <div class="jumbo">
   <h2>Professional Experience</h2>
-  <p>Hello, here are some of the places I've worked and things I've done.</p>
+  <p>Here are some of the places I've worked and things I've done.</p>
 </div>
 
 {{#each model as |experience|}}
-<div class="col-md-6 detail-container">
+<div class="col-md-6 ">
   <article class="listing">
-
-      <h3>{{experience.title}}</h3>
-      <div class="detail owner">
-        <span>Company:</span> {{experience.company}}
+      <img src="{{experience.image}}" alt="">
+      <div class="detail-container">
+        <h3> {{experience.title}}</h3>
+        <div class="detail owner">
+          <span>Company:</span> {{experience.company}}
+        </div>
+        <div class="detail type">
+          <span>Location:</span> {{experience.city}}
+        </div>
+        <div class="detail location">
+          <span>Start:</span> {{experience.start}}
+        </div>
+        <div class="detail bedrooms">
+          <span>End:</span> {{experience.end}}
+        </div>
       </div>
-      <div class="detail type">
-        <span>Location:</span> {{experience.city}}
-      </div>
-      <div class="detail location">
-        <span>Start:</span> {{experience.start}}
-      </div>
-      <div class="detail bedrooms">
-        <span>End:</span> {{experience.end}}
-      </div>
-
   </article>
+
+  {{location-map location=experience.location}}
   </div>
 {{/each}}

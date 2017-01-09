@@ -12,6 +12,7 @@ module.exports = function(defaults) {
   });
 
   app.import('bower_components/bootstrap-sass/assets/javascripts/bootstrap.js');
+  app.import('vendor/gmaps.js');
 
   return app.toTree();
 };
