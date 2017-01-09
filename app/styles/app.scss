@@ -31,6 +31,8 @@ $lato: 'Lato', sans-serif;
 }
 
 .listing {
+  width: 78%;
+  margin-left: 70px;
   margin-bottom: 30px;
   background-color: rgba(0,0,0,.7);
   padding-bottom: 4px;
@@ -43,15 +45,16 @@ $lato: 'Lato', sans-serif;
 }
 
 .menu {
+  height: 80px;
   display: flex;
-  background-color: rgba(6, 77, 111, .5);
+  background-color: rgba(255, 255, 255, 0.75);;
   width: 100%;
   padding-left: 110px;
   color: #fff;
 
   h1 {
 
-    color: #fff;
+    color: #000;
   }
 
   em {
@@ -61,10 +64,10 @@ $lato: 'Lato', sans-serif;
 
   a {
     font-size: 1.25em;
-    color: #fff;
+    color: #000;
   }
   a:hover {
-    color: #ccc;
+    color: #808080;
   }
 }
 
@@ -102,4 +105,17 @@ $lato: 'Lato', sans-serif;
   display: block;
   border-radius: 100%;
   margin-top: 50px;
+}
+
+.experience-header {
+  padding-left: 90px;
+  padding-top: 12px;
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
 }
